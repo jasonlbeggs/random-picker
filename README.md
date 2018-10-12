@@ -1,4 +1,8 @@
-# random
+# Random Picker
+
+A PWA built to make decisions for you! Just put in the options and click the "Choose" button.
+
+Hosted at https://random-picker.netlify.com.
 
 ## Project setup
 ```

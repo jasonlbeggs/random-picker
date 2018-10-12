@@ -19,10 +19,13 @@
             </div>
           </div>
           <div v-else class="text-xl text-grey mb-4">Add an option to generate a random pick.</div>
-          <form class="flex items-center" @submit.prevent="addOption">
+          <form class="flex items-center mb-8" @submit.prevent="addOption">
             <input placeholder="Add an option" v-model="newOption" class="w-full bg-white px-4 py-3 text-xl rounded-lg shadow-md mr-1 focus:outline-none focus:shadow-outline">
             <button class="bg-teal hover:bg-teal-dark text-white shadow-md rounded-lg px-4 py-3 text-xl uppercase tracking-wide font-medium focus:outline-none focus:shadow-outline">Add</button>
           </form>
+        </div>
+        <div class="text-center">
+          <a href="https://jasonlbeggs.com" class="text-grey no-underline">Made with &hearts; by jasonlbeggs</a>
         </div>
       </div>
       <h1 v-else class="text-teal text-center container px-4 py-16 flex items-center justify-center min-h-screen">
