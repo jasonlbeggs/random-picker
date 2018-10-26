@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="font-sans text-grey-darkest bg-grey-lightest min-h-screen">
     <transition name="fade">
       <div v-if="!result" class="container mx-auto px-4 py-16 md:flex flex-col items-center justify-center min-h-screen">
         <h1 class="text-3xl md:text-4xl text-black">Random Picker</h1>

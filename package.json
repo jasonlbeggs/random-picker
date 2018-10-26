@@ -12,12 +12,15 @@
     "vue": "^2.5.17"
   },
   "devDependencies": {
+    "@fullhuman/postcss-purgecss": "^1.1.0",
     "@vue/cli-plugin-babel": "^3.0.5",
     "@vue/cli-plugin-eslint": "^3.0.5",
     "@vue/cli-plugin-pwa": "^3.0.5",
     "@vue/cli-service": "^3.0.5",
     "@vue/eslint-config-prettier": "^3.0.5",
     "lint-staged": "^7.2.2",
+    "purgecss": "^1.1.0",
+    "tailwindcss": "^0.6.6",
     "vue-template-compiler": "^2.5.17"
   },
   "gitHooks": {
