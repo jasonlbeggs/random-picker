@@ -90,6 +90,11 @@ export default {
 </script>
 
 <style>
+*,
+*::before,
+*::after {
+  box-sizing: border-box !important;
+}
 .fade-enter-active,
 .fade-leave-active {
   transition: opacity 0.3s;
