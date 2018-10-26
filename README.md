@@ -1,6 +1,6 @@
 # Random Picker
 
-A PWA built to make decisions for you! Just put in the options and click the "Choose" button.
+Why make difficult decisions when this app can do it for you? Just put in the options and click the "Choose" button.
 
 Hosted at https://random-picker.netlify.com.
 
