@@ -11,7 +11,7 @@
             <div v-for="option in options" class="flex items-center justify-between mb-2" :key="option">
               <div class="text-xl text-grey-darker">{{ option }}</div>
               <button
-                class="font-bold text-2xl text-grey cursor-pointer hover:text-red"
+                class="font-bold text-2xl text-grey-darker cursor-pointer hover:text-red"
                 @click.prevent="removeOption(option)"
               >
                 &times;
@@ -25,7 +25,7 @@
           </form>
         </div>
         <div class="text-center">
-          <a href="https://jasonlbeggs.com" class="text-grey-dark no-underline">Made with &hearts; by jasonlbeggs</a>
+          <a href="https://jasonlbeggs.com" class="text-grey-darker no-underline">Made with &hearts; by jasonlbeggs</a>
         </div>
       </div>
       <h1 v-else class="text-teal-dark text-center container px-4 py-16 flex items-center justify-center min-h-screen">
