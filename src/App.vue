@@ -20,7 +20,7 @@
           </div>
           <div v-else class="text-xl text-grey mb-4">Add an option to generate a random pick.</div>
           <form class="flex items-center mb-8" @submit.prevent="addOption">
-            <input ari-label="new option" id="new-option" placeholder="Add an option" v-model="newOption" class="w-full bg-white px-4 py-3 text-xl rounded-lg shadow-md mr-1 focus:outline-none focus:shadow-outline">
+            <input aria-label="new option" id="new-option" placeholder="Add an option" v-model="newOption" class="w-full bg-white px-4 py-3 text-xl rounded-lg shadow-md mr-1 focus:outline-none focus:shadow-outline">
             <button class="bg-teal-dark hover:bg-teal text-white shadow-md rounded-lg px-4 py-3 text-xl uppercase tracking-wide font-medium focus:outline-none focus:shadow-outline">Add</button>
           </form>
         </div>
