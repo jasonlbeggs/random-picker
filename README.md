@@ -2,7 +2,7 @@
 
 Why make difficult decisions when this app can do it for you? Just put in the options and click the "Choose" button.
 
-Hosted at https://random-picker.netlify.com.
+Hosted at https://random.jasonlbeggs.com.
 
 ## Project setup
 ```
